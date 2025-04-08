@@ -33,3 +33,32 @@ Best Case: O(n)
 [2,3,4,8,7,9,5,15,6] - Üçüncü en küçük eleman 4, 5 ile yer değiştirir
 [2,3,4,5,7,9,8,15,6] - Dördüncü en küçük eleman 5, 8 ile yer değiştirir
 ```
+
+## Proje 2 - Merge Sort
+
+[16,21,11,8,12,22] -> Merge Sort
+
+### Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+
+```
+            [16,21,11,8,12,22]
+                   /   \
+           [16,21,11]   [8,12,22]
+            /    \        /    \
+        [16]   [21,11]  [8]   [12,22]
+         /        /\      \      /\
+      [16]     [21] [11]  [8]  [12] [22]
+         \      /    /     \    \   /
+         [16]  [11,21]     [8]  [12,22]
+              \   /          \   /
+           [11,16,21]       [8,12,22]
+                  \         /
+               [8,11,12,16,21,22]
+```
+### Big-O gösterimini yazınız.
+
+```
+O(n log n)
+```
+
+Merge Sort'un zaman karmaşıklığı her durumda (best case, average case, worst case) O(n log n)'dir. Bu karmaşıklık, diziyi ikiye bölme işleminden dolayı log n, her seviyede tüm elemanları birleştirme işleminden dolayı n faktörü ile oluşur.
