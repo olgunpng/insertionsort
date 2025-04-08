@@ -27,7 +27,9 @@ Best Case: O(n)
 
 ### [7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
 
+```
 [2,3,5,8,7,9,4,15,6] - En küçük eleman 2, ilk eleman 7 ile yer değiştirir
 [2,3,5,8,7,9,4,15,6] - İkinci en küçük eleman 3 zaten doğru pozisyonda
 [2,3,4,8,7,9,5,15,6] - Üçüncü en küçük eleman 4, 5 ile yer değiştirir
 [2,3,4,5,7,9,8,15,6] - Dördüncü en küçük eleman 5, 8 ile yer değiştirir
+```
